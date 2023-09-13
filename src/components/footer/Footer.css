@@ -1,0 +1,144 @@
+
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #c4c4c4;
+}
+
+.logo-footer img{
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.logo-footer p {
+    margin: 1% 0 1% 10%;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.redes {
+    margin-left: 10%;
+    display: flex;
+}
+.redes a {
+    margin: 0.5%;
+    margin-bottom: 30px;
+}
+
+.redes a:hover {
+    transition: background .4s;
+    background-color: #009EE2;
+}
+
+.contato {
+    margin-left: 8%;
+    margin: 2%;
+}
+
+.contato ul {
+    margin-left: 8%;
+    list-style: none;
+}
+.contato li {
+    margin: 1.5%;
+}
+
+.contato a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.contato a:hover {
+    transition: background .4;
+    color: #009EE2;
+}
+
+.sobre {
+    margin-left: 8%;
+    margin: 2%;
+}
+
+.sobre ul {
+    margin-left: 8%;
+    list-style: none;
+}
+.sobre li {
+    margin: 1.5%;
+}
+
+.sobre a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 26px;
+}
+.sobre a:hover {
+    transition: background .4s;
+    color: #009EE2;
+}
+
+.grupo {
+    color: #FFF;
+    margin: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align:left;
+    color: #FFF;
+    font-family: "Open Sans",sans-serif;
+}
+
+
+@media screen and (max-width: 990px) {
+    .logo-footer img {
+        margin-left: 5%;
+    }
+
+    .logo-footer p {
+        margin: 1% 0 1% 5%;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .logo-footer img {
+        margin-left: 2%;
+    }
+
+    .logo-footer p {
+        margin: 1% 0 1% 2%;
+        font-size: 18px;
+    }
+
+    .sobre a {
+        font-size: 22px;
+    }
+
+    .contato a {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo-footer img {
+        margin-left: 1%;
+    }
+
+    .logo-footer p {
+        margin: 1% 0 1% 1%;
+        font-size: 16px;
+    }
+
+    .sobre a {
+        font-size: 20px;
+    }
+
+    .contato a {
+        font-size: 18px;
+    }
+}
