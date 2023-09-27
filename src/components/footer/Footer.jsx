@@ -4,17 +4,6 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer">
-        <div className="footer-part1">
-          <div className="logo-footer">
-            <img src="/img/porto2.png" alt="" width="200px" />
-            <p>Acompanhe-nos em nossas Redes Sociais:</p>
-          </div>
-          <div className="redes">
-            <a href="#"><img src="insta.png" alt="" width="70px" /></a>
-            <a href="#"><img src="twitter.png" alt="" width="70px" /></a>
-            <a href="#"><img src="face.png" alt="" width="70px" /></a>
-          </div>
-        </div>
         <div className="contato">
           <ul>
             <li>
@@ -34,7 +23,7 @@ const Footer = () => {
         <div className="sobre">
           <ul>
             <li>
-              <a href="#">Porto</a>
+              <a href="#">Loja</a>
             </li>
             <li>
               <a href="#">Notícias</a>
